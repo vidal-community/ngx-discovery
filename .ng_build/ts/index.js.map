@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.ts"],"names":[],"mappings":"AAAA,OAAC,EAAA,eAAA,EAAA,MAAA,8CAAA,CAAA","file":"index.js","sourceRoot":"","sourcesContent":["export {DiscoveryModule} from './src/app/modules/discovery/discovery.module';\n"]}
