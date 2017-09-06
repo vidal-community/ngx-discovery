@@ -5,6 +5,10 @@ import { Observable } from 'rxjs/Observable';
 import { Http, Headers, Response } from '@angular/http';
 import { ReplaySubject } from 'rxjs/ReplaySubject';
 
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/mergeMap';
+
 export const DISCOVERY_SERVICE_CONFIG = new InjectionToken<DiscoveryServiceConfig>('service.discovery.config');
 
 export interface DiscoveryServiceConfig {
