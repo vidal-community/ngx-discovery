@@ -18,8 +18,9 @@
     "module": "es2015",
     "baseUrl": "./"
   },
-  "files": [
-    "index.ts"
+  "include": [
+    "./index.ts",
+    "./src/**/*"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true
