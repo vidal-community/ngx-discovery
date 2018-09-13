@@ -1,8 +1,7 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { DiscoveryDirective } from './discovery.directive';
-import { DiscoveryService, DISCOVERY_SERVICE_CONFIG } from './discovery.service';
-import { HttpModule } from '@angular/http';
+import {ModuleWithProviders, NgModule} from '@angular/core';
+import {DiscoveryDirective} from './discovery.directive';
+import {DISCOVERY_SERVICE_CONFIG, DiscoveryService} from './discovery.service';
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   imports: [HttpModule],

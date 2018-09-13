@@ -18,8 +18,10 @@
     "module": "es2015",
     "baseUrl": "./"
   },
-  "include": [
-    "./index.ts",
-    "./src/**/*"
-  ]
+  "files": [
+    "index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  }
 }
